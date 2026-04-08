@@ -2,7 +2,7 @@
 {
     "layer": "top",
     "position": "top", 
-    "height": 42, 
+    "height": 50, 
     "spacing": 2, 
     "modules-left": [
         "custom/arch",

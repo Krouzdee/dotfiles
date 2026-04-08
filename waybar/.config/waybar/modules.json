@@ -50,9 +50,9 @@
     },
     "network": {
         "format-wifi": "   {essid}",
-        "format-ethernet": "{ipaddr}/{cidr}",
-        "tooltip-format": "{ifname} via {gwaddr}",
-        "format-linked": "{ifname} (No IP)",
+        "format-ethernet": "   {essid}",
+        "tooltip-format": "   {essid}",
+        "format-linked": "   {essid}",
         "format-disconnected": "Disconnected"
     },
 
@@ -92,7 +92,7 @@
     "custom/power": {
         "format": "⏻",
         "tooltip": false,
-        "on-click": "$HOME/.config/rofi/powermenu/type-1/powermenu.sh"
+        "on-click": "$HOME/.config/rofi/powermenu.sh"
     },
 
     "hyprland/window": {
@@ -101,7 +101,7 @@
     },
 
     "tray": {
-    "icon-size": 18,
+    "icon-size": 20,
     "spacing": 10
     },
 

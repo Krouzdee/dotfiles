@@ -1,15 +1,15 @@
 * {
     /* `otf-font-awesome` and SpaceMono Nerd Font are required to be installed for icons */
     font-family: "JetBrains Mono", "SpaceMono Nerd Font", "FontAwesome", sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     transition: background-color .3s ease-out;
 }
 
 window#waybar {
     background: rgba(26, 27, 38, 0);
-    color: #a6adc8;
+    color: #d8d8d8;
     font-family: 
-        SpaceMono Nerd Font,
+        JetBrainsMono Nerd Font,
         feather;
     transition: background-color .5s;
 }
@@ -68,27 +68,29 @@ window#waybar {
 
 
 #workspaces button {
-  background: transparent;
-  font-family:
-    SpaceMono Nerd Font,
-    feather;
-  font-weight: 900;
-  font-size: 13pt;
-  color: #a6adc8;
-  border:none;
-  border-radius: 15px;
+    font-family: "JetBrains Mono", "SpaceMono Nerd Font", "FontAwesome", sans-serif;
+    font-weight: 900;
+    font-size: 13pt;
+    background-color: transparent;
+    color: #d8d8d8;
+    border-radius: 15px;
+    padding: 0 5px;
+    margin: 0 2px;
+    transition: all 0.15s ease-out;  
 }
 
 #workspaces button.active {
-  background: #a6adc8;
-  color: #11111b; 
+    background-color: #d8d8d8;
+    color: #11111b;
+    padding: 0 10px;
+    min-width: 20px; 
 }
 
 #workspaces button:hover {
-  background: #11111b;
-  color: #a6adc8;
-  box-shadow: none;
+    background: rgba(216, 216, 216, 0.2);
+    box-shadow: none;
 }
+
 
 #custom-arch {
     margin-left: 5px;
@@ -97,7 +99,7 @@ window#waybar {
     transition: color .5s;
 }
 #custom-arch:hover {
-    color: #a6adc8;
+    color: #d8d8d8;
 }
 
 #custom-power {
