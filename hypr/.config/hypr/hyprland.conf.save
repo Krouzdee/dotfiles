@@ -16,7 +16,7 @@ exec-once = qs -c noctalia-shell
 exec-once = systemctl --user start hyprpolkitagent
 ### ENVIRONMENT VARIABLES ###
 # See https://wiki.hyprland.org/Configuring/Environment-variables/
-env = QT_QPA_PLATFORMTHEME, gtk3
+
 env = XCURSOR_THEME,Bibata-Modern-Classic
 env = XCURSOR_SIZE,24
 env = HYPRCURSOR_THEME,Bibata-Modern-Classic
@@ -52,7 +52,6 @@ master {
 misc {
     force_default_wallpaper = 0 
     disable_hyprland_logo = true
-    initial_workspace_tracking = 2
     vfr = true 
 }
 
