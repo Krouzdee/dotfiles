@@ -25,9 +25,3 @@ include colors.conf
 input_delay 3
 
 repaint_delay 8
-
-
-# BEGIN_KITTY_THEME
-# Noctalia
-include current-theme.conf
-# END_KITTY_THEME
