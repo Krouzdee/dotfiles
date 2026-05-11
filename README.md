@@ -55,27 +55,28 @@ Ensure you have the following programs installed:
 The main modifier key is `SUPER` (Windows key).
 
 ### System & Applications
-*   `SUPER + T` — Open Kitty (Terminal)
-*   `SUPER + Shift + T` — Floating Terminal
-*   `SUPER + Q` — Close Active Window
-*   `SUPER + E` — Open Thunar (File Manager)
-*   `SUPER + W` — Open Firefox
-*   `SUPER + B` — Open VSCodium
-*   `SUPER + D` — Noctalia App Launcher
-*   `SUPER + L` — Lock Screen (Hyprlock)
-*   `SUPER + V` — Clipboard History (Rofi)
+*   `SUPER + T` - Open Kitty (Terminal)
+*   `SUPER + Shift + T` - Floating Terminal
+*   `SUPER + Q` - Close Active Window
+*   `SUPER + E` - Open Thunar (File Manager)
+*   `SUPER + W` - Open Firefox
+*   `SUPER + B` - Open VSCodium
+*   `SUPER + D` - Noctalia App Launcher
+*   `SUPER + L` - Lock Screen (Hyprlock)
+*   `SUPER + V` - Clipboard History (Rofi)
 *   `Ctrl + Alt + Del` — Exit Hyprland
 
 ### Window Management
-*   `SUPER + Space` — Toggle Floating & Center
-*   `SUPER + Arrow Keys` — Move Focus
-*   `SUPER + Ctrl + Arrow Keys` — Move Window
-*   `SUPER + Shift + Arrow Keys` — Resize Window
-*   `SUPER + Shift + F` — Toggle Fullscreen
+*   `SUPER + Space` - Toggle Floating & Center
+*   `SUPER + P` - Pin
+*   `SUPER + Arrow Keys` - Move Focus
+*   `SUPER + Ctrl + Arrow Keys` - Move Window
+*   `SUPER + Shift + Arrow Keys` - Resize Window
+*   `SUPER + Shift + F` - Toggle Fullscreen
 
 ### Utilities
-*   `SUPER + Shift + S` — Screenshot (Region)
-*   `SUPER + C` — Color Picker (Hyprpicker)
+*   `SUPER + Shift + S` - Screenshot (Region)
+*   `SUPER + C` - Color Picker (Hyprpicker)
 
 
 
