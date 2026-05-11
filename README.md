@@ -63,7 +63,6 @@ The main modifier key is `SUPER` (Windows key).
 *   `SUPER + B` - Open VSCodium
 *   `SUPER + D` - Noctalia App Launcher
 *   `SUPER + L` - Lock Screen (Hyprlock)
-*   `SUPER + V` - Clipboard History (Rofi)
 *   `Ctrl + Alt + Del` — Exit Hyprland
 
 ### Window Management
