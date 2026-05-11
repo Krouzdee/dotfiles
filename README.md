@@ -1,4 +1,4 @@
-# My Hyprland Dotfiles
+# Hyprland Dotfiles
 
 A clean and functional Hyprland configuration managed with `GNU Stow`. This setup features the **Noctalia Shell**.
 
