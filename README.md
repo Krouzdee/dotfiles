@@ -36,19 +36,30 @@ Ensure you have the following programs installed:
 
 ## 🚀 Installation
 
+> [!IMPORTANT]
+> **Automatic Setup works on Arch Linux only.** The script uses `pacman` and `yay` for package management.
+
+### Option 1: Automatic Setup (Recommended for Arch Users)
+This method handles everything: system dependencies, AUR helper (`yay`), and config symlinking.
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/Krouzdee/dotfiles.git
    cd dotfiles
    ```
-
-2. Use `stow` to create symlinks:
+2. Run the installer:
    ```bash
-   stow .
+   chmod +x install.py
+   ./install.py
    ```
-   *Note: Original Waybar and Rofi configs are moved to the `backups` directory as they are superseded by Noctalia Shell.*
 
----
+### Option 2: Manual Setup
+If you are on another distribution or want manual control:
+1. Manually install the [Dependencies](#-dependencies).
+2. Clone the repo and use `stow` (or manually copy configs):
+   ```bash
+   stow -R .
+   ```
 
 ## ⌨️ Keybindings
 
