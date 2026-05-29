@@ -28,7 +28,7 @@ Ensure you have the following programs installed:
 | Category | Application |
 | :--- | :--- |
 | **Core** | `hyprland`, `noctalia-shell`, `stow` |
-| **Terminal** | `kitty` |
+| **Terminal** | `foot` |
 | **GUI Apps** | `thunar`, `firefox`, `vscodium` |
 | **Utilities** | `hyprlock`, `hyprpicker`, `hyprshot`, `cliphist`, `wl-clipboard` |
 

@@ -6,7 +6,7 @@ from pathlib import Path
 import shutil
 import sys
 
-PACKAGES = ["hyprland", "swww", "kitty", "thunar", "fastfetch", "hyprlock", "hyprpicker", "hyprshot", "cliphist", "wl-clipboard", "noctalia-shell"]
+PACKAGES = ["hyprland", "swww", "foot", "thunar", "fastfetch", "hyprlock", "hyprpicker", "hyprshot", "cliphist", "wl-clipboard", "noctalia-shell"]
 DOTFILES_DIR = Path.home() / "dotfiles"
 STOW_FOLDERS = ["hypr", "kitty", "fastfetch"]
 
