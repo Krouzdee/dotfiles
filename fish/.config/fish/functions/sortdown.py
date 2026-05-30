@@ -9,7 +9,7 @@ PICTURES = os.path.join(HOME, "Pictures")
 DOCUMENTS = os.path.join(HOME, "Documents")
 VIDEOS = os.path.join(HOME, "Videos")
 MUSIC = os.path.join(HOME, "Music")
-ARCHIVES = os.path.join(DOWNLOADS, "Archives")
+ARCHIVES = os.path.join(HOME, "Archives")
 TORRENTS = os.path.join(DOWNLOADS, "Torrents")
 DEVELOPMENT = os.path.join(HOME, "Development")
 
