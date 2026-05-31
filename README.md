@@ -14,7 +14,7 @@ A clean and functional Hyprland configuration managed with `GNU Stow`. This setu
 
 *   **Window Manager:** Hyprland
 *   **Shell/Bar/Launcher:** [Noctalia Shell](https://github.com/noctalia-dev/noctalia-shell) 
-*   **Terminal:** Kitty
+*   **Terminal:** Foot
 *   **File Manager:** Thunar
 *   **Workflow:** Symlink-based management using `stow`.
 

@@ -6,9 +6,9 @@ from pathlib import Path
 import shutil
 import sys
 
-PACKAGES = ["hyprland", "swww", "foot", "thunar", "fastfetch", "hyprlock", "hyprpicker", "hyprshot", "cliphist", "wl-clipboard", "noctalia-shell"]
+PACKAGES = ["hyprland", "foot", "thunar", "fastfetch", "hyprpicker", "hyprshot", "cliphist", "wl-clipboard", "noctalia-shell"]
 DOTFILES_DIR = Path.home() / "dotfiles"
-STOW_FOLDERS = ["hypr", "kitty", "fastfetch"]
+STOW_FOLDERS = ["hypr", "foot", "fastfetch", "fish"]
 
 
 def install_yay():
