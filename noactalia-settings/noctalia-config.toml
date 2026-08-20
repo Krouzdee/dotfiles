@@ -1,0 +1,240 @@
+[accessibility]
+ui_scale = 1.0500000081956387
+
+[bar.default]
+capsule = true
+capsule_opacity = 0.69999998435378075
+center = [ "workspaces" ]
+end = [ "tray", "keyboard_layout", "notifications", "lock_keys", "clipboard", "network", "volume", "session" ]
+font_family = "JetBrainsMonoNL Nerd Font"
+font_weight = 600
+margin_edge = 6
+margin_ends = 298
+padding = 8
+panel_overlap = 0
+position = "bottom"
+radius = 11
+scale = 1.1000000089406967
+shadow = false
+start = [ "launcher", "control-center", "clock", "media" ]
+thickness = 36
+widget_spacing = 5
+
+[desktop_widgets]
+enabled = false
+
+[dock]
+active_scale = 0.80000001192092896
+background_opacity = 0.99999997764825821
+cross_axis_padding = 7
+enabled = true
+icon_size = 31
+launcher_position = "end"
+magnification_scale = 1.1000000014901161
+main_axis_padding = 23
+margin_edge = 5
+pinned = [ "org.telegram.desktop", "equibop", "steam", "osu-lazer", "codium" ]
+position = "left"
+radius = 9
+shadow = false
+show_instance_count = false
+show_running = false
+
+[lockscreen]
+blur_intensity = 0.29999999329447746
+blurred_desktop = true
+fingerprint = false
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-login-box@DVI-D-1",
+    "lockscreen-login-box@HDMI-A-1",
+    "lockscreen-widget-0000000000000002",
+    "lockscreen-widget-0000000000000003"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DVI-D-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 840.0
+    cy = 868.0
+    output = "DVI-D-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DVI-D-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 128.0
+    box_width = 256.0
+    cx = 1237.0
+    cy = 670.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "clock"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000003]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 726.6500244140625
+    cy = 660.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "media_player"
+
+[notification]
+background_opacity = 0.95999997854232788
+
+[osd]
+orientation = "vertical"
+position = "bottom_right"
+position_vertical = "top_right"
+
+    [osd.kinds]
+    keyboard_backlight = false
+    keyboard_layout = false
+    lock_keys = false
+    media = false
+    privacy = false
+
+[plugins]
+auto_update = false
+enabled = [ "aristides/udiskie" ]
+
+[shell]
+app_icon_color = "outline"
+font_family = "JetBrainsMonoNL Nerd Font Mono"
+lang = "ru"
+password_style = "random"
+polkit_agent = true
+
+    [shell.launcher]
+    categories = false
+    show_icons = false
+
+    [shell.panel]
+    control_center_placement = "floating"
+    floating_layer = "top"
+    launcher_position = "auto"
+    session_placement = "floating"
+    shadow = false
+    wallpaper_placement = "floating"
+
+    [shell.screenshot]
+    directory = "~/Pictures/Screenshots"
+
+[theme]
+builtin = "Kanagawa"
+community_palette = "Kanagawa Paper"
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "foot", "gtk3", "gtk4", "hyprland", "qt" ]
+    community_ids = [ "fastfetch" ]
+
+[wallpaper.default]
+path = "/home/krouzdee/Pictures/Wallpapers/MissLookalike.jpg"
+
+[wallpaper.last]
+path = "/home/krouzdee/Pictures/Wallpapers/MissLookalike.jpg"
+
+[wallpaper.monitors.DVI-D-1]
+path = "/home/krouzdee/Pictures/Wallpapers/MissLookalike.jpg"
+
+[wallpaper.monitors.HDMI-A-1]
+path = "/home/krouzdee/Pictures/Wallpapers/wallpaper_3.png"
+
+[weather]
+enabled = false
+
+[widget.audio_visualizer]
+bands = 13
+show_when_idle = true
+width = 27
+
+[widget.clock]
+format = "{:%H:%M - %d.%m}"
+
+[widget.control-center]
+glyph = "navigation-filled"
+
+[widget.keyboard_layout]
+scale = 0.90000000000000002
+
+[widget.launcher]
+glyph = "align-center"
+scale = 1.05
+
+[widget.lock_keys]
+display = "full"
+hide_when_off = true
+
+[widget.media]
+art_size = 20
+hide_artist = true
+max_length = 205
+title_scroll = "on_hover"
+
+[widget.network]
+show_label = false
+
+[widget.tray]
+detached_panel = true
+drawer = true
+drawer_item_size = 17.0
+match_adjacent_spacing = true
+pinned = [ "steam" ]
+scale = 1.05
+
+[widget.workspaces]
+active_pill_size = 2.3999999999999999
+inactive_pill_size = 1.1500000000000001
+pill_scale = 0.90000000000000002
+show_labels = false
