@@ -44,7 +44,7 @@ hl.window_rule({
 
 -- Thunar 
 hl.window_rule({
-    match = { class = "thunar" },
+    match = { class = "Thunar" },
     float = true,
     size = "1100 690",
     center = true
@@ -152,9 +152,12 @@ hl.window_rule({
     center = true
 })
 
+
+-- Thunar
 hl.window_rule({
     match = { class = "thunar", title = "^(Rename).*$" },
     float = true,
     size = "500 250",
     center = true
 })
+
