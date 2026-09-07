@@ -18,8 +18,9 @@ hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(editor))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + X", hl.dsp.exec_cmd("happ"))
-hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("Telegram"))
+hl.bind(mainMod .. " + H", hl.dsp.exec_cmd("Telegram"))
 hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd("steam"))
+hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("equibop"))
 
 
 hl.bind("CTRL + SHIFT + Escape", hl.dsp.exec_cmd("foot -e btop"))
