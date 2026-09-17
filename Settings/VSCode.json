@@ -1,0 +1,104 @@
+{
+    // Шрифт и размер шрифта
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.fontSize": 17,
+
+    // Статус бар
+    "workbench.statusBar.visible": false,
+
+    // Иконки
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Настройки верхней панели
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+
+    // Мини карта 
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+
+    // Потверждение на Drag&Drop
+    "explorer.confirmDragAndDrop": false,
+
+    // Виджеты для скролла
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.matchBrackets": "never",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,  
+
+    // Убираем полный путь к файлу
+    "breadcrumbs.enabled": false,
+
+    // Дефолтный размер для редактора
+    "window.zoomLevel": 1,
+
+    // Отключение лишних декораций и меток
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+
+    // Настройки курсора
+    "editor.cursorBlinking":"solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    // Отключение окна с помощью для новичков
+    "workbench.tips.enabled": false,
+
+    // Убрать значок для сворачивания кода
+    "editor.showFoldingControls": "never",
+
+    // Убрать иконку лампочки
+    "editor.lightbulb.enabled": "off",
+
+    // Отключить индикацию активной строки
+    "editor.renderLineHighlight": "none",
+    
+    // Не показывать пробелы, табы и т.п.
+    "editor.renderWhitespace": "none",
+
+    // Отключает вертикальные линии отступов в редакторе
+    "editor.guides.indentation": false,
+
+    // Убирает полоски в дереве
+    "workbench.tree.renderIndentGuides": "none",
+
+    // Настройки для Python и Pyright
+    "python.languageServer": "Pyright",
+    
+    // Файлы открываются полностью убирает курсив в название
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorTheme": "Kanagawa Wave",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/usr/bin/bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "/usr/bin/fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "discord.lowerDetailsEditing": "",
+    "discord.detailsEditing": "",
+    "workbench.editorAssociations": {
+        "*.vfs": "default"
+    },
+
+}

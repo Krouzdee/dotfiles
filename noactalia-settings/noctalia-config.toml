@@ -66,6 +66,8 @@ widget_order = [
     cx = 840.0
     cy = 868.0
     output = "DVI-D-1"
+    placement_height = 1050.0
+    placement_width = 1680.0
     rotation = 0.0
     type = "login_box"
 
@@ -91,6 +93,8 @@ widget_order = [
     cx = 960.0
     cy = 898.0
     output = "HDMI-A-1"
+    placement_height = 0.0
+    placement_width = 0.0
     rotation = 0.0
     type = "login_box"
 
@@ -116,6 +120,8 @@ widget_order = [
     cx = 1237.0
     cy = 670.0
     output = "HDMI-A-1"
+    placement_height = 0.0
+    placement_width = 0.0
     rotation = 0.0
     type = "clock"
 
@@ -125,6 +131,8 @@ widget_order = [
     cx = 726.6500244140625
     cy = 660.0
     output = "HDMI-A-1"
+    placement_height = 0.0
+    placement_width = 0.0
     rotation = 0.0
     type = "media_player"
 
@@ -144,7 +152,7 @@ position_vertical = "top_right"
     privacy = false
 
 [plugins]
-auto_update = false
+auto_update = "none"
 enabled = [ "aristides/udiskie" ]
 
 [shell]
@@ -177,16 +185,16 @@ wallpaper_scheme = "m3-content"
 
     [theme.templates]
     builtin_ids = [ "btop", "cava", "foot", "gtk3", "gtk4", "hyprland", "qt" ]
-    community_ids = [ "fastfetch" ]
+    community_ids = [ "fastfetch", "papirus-icons" ]
 
 [wallpaper.default]
-path = "/home/krouzdee/Pictures/Wallpapers/MissLookalike.jpg"
+path = "/home/krouzdee/Pictures/Wallpapers/sewerslvt.jpg"
 
 [wallpaper.last]
-path = "/home/krouzdee/Pictures/Wallpapers/MissLookalike.jpg"
+path = "/home/krouzdee/Pictures/Wallpapers/sewerslvt.jpg"
 
 [wallpaper.monitors.DVI-D-1]
-path = "/home/krouzdee/Pictures/Wallpapers/MissLookalike.jpg"
+path = "/home/krouzdee/Pictures/Wallpapers/sewerslvt.jpg"
 
 [wallpaper.monitors.HDMI-A-1]
 path = "/home/krouzdee/Pictures/Wallpapers/wallpaper_3.png"
@@ -236,5 +244,6 @@ scale = 1.05
 [widget.workspaces]
 active_pill_size = 2.3999999999999999
 inactive_pill_size = 1.1500000000000001
+labels_only_when_occupied = true
 pill_scale = 0.90000000000000002
 show_labels = false

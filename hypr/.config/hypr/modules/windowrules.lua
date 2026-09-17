@@ -144,6 +144,14 @@ hl.window_rule({
     center = true
 })
 
+-- File Roller
+hl.window_rule({
+    match = { class = "org.gnome.FileRoller" },
+    float = true,
+    size = "810 490",
+    center = true
+})
+
 
 hl.window_rule({
     match = { class = "xdg-desktop-portal-gtk" },
