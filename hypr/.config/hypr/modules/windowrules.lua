@@ -74,7 +74,7 @@ hl.window_rule({
 
 -- Happ
 hl.window_rule({
-    match = { class = "Happ" },
+    match = { class = "^(Happ|Throne)$" },
     float = true,
     center = true,
     size = "1000, 600"
